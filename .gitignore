@@ -2,3 +2,4 @@ virtual/
 *.pyc
 instance/config.py
 __pycache__
+vscode/
