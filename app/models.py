@@ -28,7 +28,7 @@ class User(UserMixin, db.Model):
     def verify_password(self, password):
         return check_password_hash(self.secure_password,password) 
     
-    def save_user(self):
+    def save_u(self):
         db.session.add(self)
         db.session.commit()
 
@@ -66,7 +66,7 @@ class Comment(db.Model):
     user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable = False)
     pitch_id = db.Column(db.Integer,db.ForeignKey('pitches.id'),nullable = False)
 
-    def save_comment(self):
+    def save_c(self):
         db.session.add(self)
         db.session.commit()
 
