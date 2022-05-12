@@ -19,7 +19,8 @@ class Config:
     
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://carol:lorac1234@localhost/pitch'
+    # SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URL')
 
 
 class TestConfig(Config):
