@@ -1,4 +1,4 @@
-#cats{
-    color: brown;
-    font-size: 18px;
+#carded{
+    border-radius:6px; 
+    background-color: rgb(241, 241, 241);
 }
