@@ -5,7 +5,7 @@
 [carol-profile](https://github.com/carol-profile)
 
 # Description
-This is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application
+<p>This is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application.</p>
 
 ## Live Link
 * This is the live [link to the app ](https://carolpitchhub.herokuapp.com/)
